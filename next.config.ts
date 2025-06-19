@@ -1,7 +1,9 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ['picsum.photos'] // <-- Allow external image host
+  }
 };
 
 export default nextConfig;
