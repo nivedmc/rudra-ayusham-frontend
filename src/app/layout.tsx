@@ -27,6 +27,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white`}
       >
+        <header className="bg-gray-100 p-4 shadow-md sticky top-0 z-50">
+          <nav className="container mx-auto flex justify-between items-center">
+            <div className="text-2xl font-bold text-gray-800">
+              Rudra Ayusham
+            </div>
+          </nav>
+        </header>
         {children}
       </body>
     </html>
